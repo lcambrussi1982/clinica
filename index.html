@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OrtoSaúde | Especialistas em Mão e Joelho</title>
+  <meta name="description" content="Clínica ortopédica especializada em mão e joelho. Consultas, cirurgias e reabilitação com equipe experiente." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header" role="banner">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <div class="mark" aria-hidden="true"></div>
+        <span>OrtoSaúde</span>
+      </a>
+
+      <nav aria-label="Menu principal">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#profissionais">Profissionais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="cta">
+        <a class="btn btn-outline" href="tel:+5546999999999">(46) 9 9999-9999</a>
+        <button id="btnLogin" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="container hero-wrap">
+      <div>
+        <h1>Cuidado especializado em Mão e Joelho</h1>
+        <p>Diagnóstico preciso, tratamentos modernos e reabilitação com equipe dedicada ao seu movimento e bem-estar.</p>
+        <div class="badges">
+          <span class="badge">Ortopedia Avançada</span>
+          <span class="badge">Fisioterapia Especializada</span>
+        </div>
+        <div class="stack-sm">
+          <a href="#contato" class="btn btn-outline">Agendar consulta</a>
+          <a href="https://wa.me/5546999999999" class="btn btn-primary">WhatsApp</a>
+        </div>
+      </div>
+      <img src="d8a4ba83-fc09-467f-9e1c-5405bccf73c3.png" alt="Ambiente da clínica" class="hero-img" />
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre a OrtoSaúde</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Missão</h3>
+          <p>Promover saúde do aparelho locomotor com excelência técnica e acolhimento humanizado.</p>
+        </div>
+        <div class="card">
+          <h3>Estrutura</h3>
+          <p>Consultórios modernos, sala de procedimentos e rede parceira de imagem e reabilitação.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Especialidades -->
+  <section id="especialidades">
+    <div class="container">
+      <h2>Especialidades</h2>
+      <div class="grid grid-3">
+        <article class="card">
+          <img src="mao.jpg" alt="Atendimento de mão" />
+          <h3>Cirurgia & Reabilitação da Mão</h3>
+          <p>Lesões, fraturas, síndrome do túnel do carpo, artrose e reabilitação pós-operatória.</p>
+        </article>
+        <article class="card">
+          <img src="joelho.jpg" alt="Atendimento de joelho" />
+          <h3>Joelho Esportivo & Degenerativo</h3>
+          <p>Lesões do LCA, meniscos, condropatia, artrose e artroscopia.</p>
+        </article>
+        <article class="card">
+          <img src="fisioterapia.jpg" alt="Fisioterapia" />
+          <h3>Fisioterapia Ortopédica</h3>
+          <p>Reabilitação personalizada, analgesia e fortalecimento muscular.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profissionais -->
+  <section id="profissionais">
+    <div class="container">
+      <h2>Nossa Equipe</h2>
+      <div class="grid grid-2">
+        <article class="card">
+          <img src="dr-bruno.jpg" alt="Dr. Bruno Adona Ribeiro" />
+          <h3>Dr. Bruno Adona Ribeiro</h3>
+          <p>Ortopedia & Cirurgia da Mão</p>
+          <a href="tel:+5546999999998" class="btn btn-outline">Ligar: (46) 9 9999-9998</a>
+        </article>
+        <article class="card">
+          <img src="dr-luiz.jpg" alt="Dr. Luiz Henrique Cambrussi" />
+          <h3>Dr. Luiz Henrique Cambrussi</h3>
+          <p>Ortopedia & Cirurgia do Joelho</p>
+          <a href="tel:+5546999999997" class="btn btn-outline">Ligar: (46) 9 9999-9997</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato">
+    <div class="container">
+      <h2>Contato e Agendamentos</h2>
+      <div class="grid grid-2">
+        <form id="formContato" class="card stack-sm">
+          <input type="text" placeholder="Seu nome" required />
+          <input type="email" placeholder="Seu e-mail" required />
+          <input type="tel" placeholder="Seu telefone" required />
+          <textarea placeholder="Sua mensagem" required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div class="card stack-sm">
+          <p><strong>Telefone:</strong> <a href="tel:+5546999999999">(46) 9 9999-9999</a></p>
+          <p><strong>Endereço:</strong> Av. Exemplo, 123 — Centro, Pato Branco/PR</p>
+          <p><strong>Horário:</strong> Seg a Sex — 08:00 às 18:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>&copy; <span id="ano"></span> OrtoSaúde — Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Modal Login -->
+  <div id="loginModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="loginForm">
+        <select id="userType" required>
+          <option value="">Selecione...</option>
+          <option value="paciente">Paciente</option>
+          <option value="medico">Médico</option>
+        </select>
+        <input type="text" id="username" placeholder="Usuário" required />
+        <input type="password" id="password" placeholder="Senha" required />
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
